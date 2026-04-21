@@ -11,10 +11,13 @@ import AboutUs from './pages/AboutUs'
 import Footer from './components/Footer'
 import Login from './pages/Login'
 import RoomDetails from './pages/RoomDetails'
+import Activities from './pages/Activities'
+import BookNow from './pages/BookNow'
+import HotelContactPage from './pages/HotelContactPage'
 
 const App = () => {
   return (
-    <div className='flex flex-col gap-y-5 '>
+    <div className='flex flex-col  '>
 <NavBar/>
 <Routes>
   <Route path="/" element={<MainLayout/>} >
@@ -26,11 +29,14 @@ const App = () => {
 <Route path="/room/:id" element={<RoomDetails />} />
 <Route path="/aboutus" element={<AboutUs/>} ></Route>
 <Route path="/login" element={<Login/>} ></Route>
+<Route path="/activities" element={<Activities/>} ></Route>
+<Route path="/booking" element={<BookNow/>} ></Route>
+<Route path="/roomdetails" element={<RoomDetails/>} ></Route>
 </Routes>
    
 <Footer/>
 
- 
+ <HotelContactPage/>
     </div>
     
   )

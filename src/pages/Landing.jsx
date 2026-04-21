@@ -4,6 +4,7 @@ import RoomCard from '../components/RoomCard'
 import Properties from '../components/Properties'
 import AboutUs from './AboutUs'
 import Rooms from './Rooms'
+import Activities from './Activities'
 
 const Landing = () => {
   return (
@@ -11,6 +12,7 @@ const Landing = () => {
         <HeroPage/>
         <RoomCard/>
         <Properties/>
+        <Activities/>
         <AboutUs/>
        
       
