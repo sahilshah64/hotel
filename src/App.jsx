@@ -36,7 +36,7 @@ const App = () => {
    
 <Footer/>
 
- <HotelContactPage/>
+
     </div>
     
   )
